@@ -1,83 +1,49 @@
 # kicode01.github.io
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Realm of Artificial Intelligence: A Comprehensive Guide</title>
 
-    <link rel="stylesheet" href="style.css">
+            <h3>Manufacturing</h3>
+            <p>AI is enhancing manufacturing processes through predictive maintenance, quality control, and supply chain optimization.</p>
+        </li>
+    </ul>
+    <br>
+</div>
+</section>
+<section class="ai-impact">
+    <div class="container">
+        <h2>The Impact of AI on Society</h2>
+        <br>
 
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
+        <p>While AI brings numerous benefits, it also raises ethical and societal concerns. The widespread adoption of AI has implications for employment, privacy, bias, and accountability. It is crucial to navigate these challenges and ensure responsible AI development and deployment.</p>
+        <br>
+    </div>
+</section>
+<section class="contact">
+    <div class="container">
+        <h2>Contact Us</h2>
+        <br>
 
-    <header>
-        <div class="container">
-            <a href="#" class="logo">
-                <img src="logo.png" alt="Website Logo">
-            </a>
+        <p>If you have any questions or inquiries, feel free to reach out to us.</p>
 
-            <nav>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About AI</a></li>
-                    <li><a href="#">AI Applications</a></li>
-                    <li><a href="#">AI Impact</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section class="hero">
-        <div class="container">
-            <img src="hero.jpg" alt="AI Concept Image" class="hero-image">
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-            <div class="hero-content">
-                <h1>The Future of Technology: Artificial Intelligence</h1>
-                <p>Delve into the world of artificial intelligence, where machines mimic human capabilities and transform our reality.</p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
 
-                <a href="#" class="btn">Explore AI</a>
-            </div>
-        </div>
-    </section>
-    <section class="about-ai">
-        <div class="container">
-            <h2>Understanding Artificial Intelligence</h2>
-            <br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
 
-            <p>Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, problem-solving, perception, language processing, and decision-making. AI encompasses a broad range of technologies, including machine learning, natural language processing, computer vision, and robotics.</p>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2023 The Realm of Artificial Intelligence. All rights reserved.</p>
+    </div>
+</footer>
+</body>
+</html>
+```
 
-            <p>AI has revolutionized various aspects of our lives, from self-driving cars to personalized recommendations on e-commerce platforms. Its potential to transform industries and reshape society is immense.</p>
-            <br>
-        </div>
-    </section>
-    <section class="ai-applications">
-        <div class="container">
-            <h2>AI Applications: Transforming Industries</h2>
-            <br>
-
-            <ul class="application-list">
-                <li>
-                    <img src="ai-application1.png" alt="AI Application 1 Icon">
-                    <h3>Healthcare</h3>
-                    <p>AI is revolutionizing healthcare by assisting in diagnosis, treatment planning, and drug discovery.</p>
-                </li>
-                <li>
-                    <img src="ai-application2.png" alt="AI Application 2 Icon">
-                    <h3>Finance</h3>
-                    <p>AI is employed in financial institutions for fraud detection, risk assessment, and algorithmic trading.</p>
-                </li>
-                <li>
-                    <img src="ai-application3.png" alt="AI Application 3 Icon">
-                    <h3>Transportation</h3>
-                    <p>AI is paving the way for self-driving cars, optimizing traffic flow, and enhancing logistics.</p>
-                </li>
-                <li>
-                    <img src="ai-application4.png" alt="AI Application 4 Icon">
-                    <h3>Retail</h3>
-                    <p>AI is powering personalized recommendations, improving product search, and optimizing inventory management.</p>
-                </li>
-                <li>
-                    <img src="ai-application5.png" alt="AI Application 5 Icon">
-                    <h3>Manufacturing</h3>
-                    <p>AI is enhancing
+This completes the sections for AI Applications, AI Impact, and Contact. Make sure to replace placeholder content like image URLs and form action with your actual content and functionality.
