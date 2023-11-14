@@ -4,57 +4,81 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SpongeBob SquarePants</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <style>
-        body {
-            background-image: url("spongebob_background.jpg");
-            background-size: cover;
-            background-position: center;
-            color: #fff;
-            font-family: 'Arial', sans-serif;
-        }
+    <title>The Realm of Artificial Intelligence: A Comprehensive Guide</title>
 
-        #container {
-            text-align: center;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
+    <link rel="stylesheet" href="style.css">
 
-        #spongebob-image {
-            max-width: 100%;
-            height: auto;
-            border-radius: 50%;
-        }
-
-        h1 {
-            color: #f79b00;
-        }
-
-        blockquote {
-            font-style: italic;
-            color: #0366d6;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <div id="container">
-                    <img id="spongebob-image" src="spongebob_image.jpg" alt="SpongeBob SquarePants" class="img-fluid">
-                    <h1>SpongeBob SquarePants</h1>
-                    <p>SpongeBob SquarePants is an American animated television series created by marine biologist and animator Stephen Hillenburg for Nickelodeon. The series follows the adventures of an optimistic and absorbent yellow sponge named SpongeBob SquarePants who lives in an underwater pineapple in the fictional town of Bikini Bottom. In addition to SpongeBob, the series also features his friends Patrick Star, Sandy Cheeks, and Squidward Tentacles, as well as his boss Mr. Krabs and his archenemy Plankton.</p>
-                    <p>SpongeBob SquarePants is one of the most popular animated television series of all time, having won numerous awards, including 12 Primetime Emmy Awards, four Annie Awards, and two Golden Globe Awards. The series has also been praised for its humor, its characters, and its animation. It has been broadcast in over 180 countries and has been translated into over 50 languages.</p>
-                    <a href="https://www.spongebob.com/">Visit SpongeBob SquarePants's website</a>
-                </div>
+
+    <header>
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="logo.png" alt="Website Logo">
+            </a>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About AI</a></li>
+                    <li><a href="#">AI Applications</a></li>
+                    <li><a href="#">AI Impact</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <img src="hero.jpg" alt="AI Concept Image" class="hero-image">
+
+            <div class="hero-content">
+                <h1>The Future of Technology: Artificial Intelligence</h1>
+                <p>Delve into the world of artificial intelligence, where machines mimic human capabilities and transform our reality.</p>
+
+                <a href="#" class="btn">Explore AI</a>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="about-ai">
+        <div class="container">
+            <h2>Understanding Artificial Intelligence</h2>
+            <br>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-</body>
-</html>
+            <p>Artificial intelligence (AI) is the simulation of human intelligence processes by machines, especially computer systems. These processes include learning, reasoning, problem-solving, perception, language processing, and decision-making. AI encompasses a broad range of technologies, including machine learning, natural language processing, computer vision, and robotics.</p>
+
+            <p>AI has revolutionized various aspects of our lives, from self-driving cars to personalized recommendations on e-commerce platforms. Its potential to transform industries and reshape society is immense.</p>
+            <br>
+        </div>
+    </section>
+    <section class="ai-applications">
+        <div class="container">
+            <h2>AI Applications: Transforming Industries</h2>
+            <br>
+
+            <ul class="application-list">
+                <li>
+                    <img src="ai-application1.png" alt="AI Application 1 Icon">
+                    <h3>Healthcare</h3>
+                    <p>AI is revolutionizing healthcare by assisting in diagnosis, treatment planning, and drug discovery.</p>
+                </li>
+                <li>
+                    <img src="ai-application2.png" alt="AI Application 2 Icon">
+                    <h3>Finance</h3>
+                    <p>AI is employed in financial institutions for fraud detection, risk assessment, and algorithmic trading.</p>
+                </li>
+                <li>
+                    <img src="ai-application3.png" alt="AI Application 3 Icon">
+                    <h3>Transportation</h3>
+                    <p>AI is paving the way for self-driving cars, optimizing traffic flow, and enhancing logistics.</p>
+                </li>
+                <li>
+                    <img src="ai-application4.png" alt="AI Application 4 Icon">
+                    <h3>Retail</h3>
+                    <p>AI is powering personalized recommendations, improving product search, and optimizing inventory management.</p>
+                </li>
+                <li>
+                    <img src="ai-application5.png" alt="AI Application 5 Icon">
+                    <h3>Manufacturing</h3>
+                    <p>AI is enhancing
