@@ -1,4 +1,4 @@
-# kicode01.github.io
+# knhrms.github.io
 
             <h3>Manufacturing</h3>
             <p>AI is enhancing manufacturing processes through predictive maintenance, quality control, and supply chain optimization.</p>
